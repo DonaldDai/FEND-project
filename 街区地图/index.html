@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Uda p7 work</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <div id="map"></div>
+    <footer>
+        <form id="search_form" data-bind="submit: searchList">
+        	<input id="checkbox" type="checkbox" name="check" data-bind="checked: isChecked">
+            <input id="input" type="text" data-bind="value: re">
+            <button id="submit" type="submit" >Search</button>
+        </form>
+        <ul id="search_list" data-bind="visible: !isChecked(), foreach: places">
+            <li data-bind="text: $data.name, click: $data.listClick"></li>
+        </ul>
+    </footer>
+    <script type="text/javascript" src="js/libs/knockout-3.4.1.js"></script>
+    <script src="js/libs/jquery.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script async defer onerror="mapError()" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA_1IN7npvicy6_OI8uC2eYw1gM6ZtfFTo&v=3&callback=initMap"></script>
+</body>
+
+</html>

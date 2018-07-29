@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+    min-width: 830px;
+}
+
+#game_area {
+	margin-left: 300px;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.game-rules {
+	border:1px solid #5B5B5B;
+	width: 270px;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	padding: 5px;
+}
+
+.game-rules > ul {
+	text-align: left;
+}
+
+.game-rules > h3 {
+	text-transform: uppercase;
+}

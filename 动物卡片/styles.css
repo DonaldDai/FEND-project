@@ -1,0 +1,34 @@
+/* add your CSS here */
+#alpaca {
+	width: 300px;
+	height: 200px;
+	margin-bottom: 10px;
+}
+#interesting {
+	font-style: italic;
+}
+#title {
+	font-size: 30px;
+}
+#whole-div {
+	width: 310px;
+	border: 1px solid;
+	border-color: #C0C0C0;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+#text-div {
+	width: 280px;
+	border: 1px solid;
+	border-color: #C0C0C0;
+	padding: 10px;
+}
+.list-label {
+	font-weight: bold;
+}
+.list {
+	list-style: none;
+	list-style-position: outside;
+	padding: 0px;
+}

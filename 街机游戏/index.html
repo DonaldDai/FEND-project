@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Effective JavaScript: Frogger</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="game_area">
+        <h2><span class="left">Score: <span id="score" ></span></span><span class="right" >Max Score: <span id="max_score"></span></span></h2>
+    </div>
+    <div class="game-rules">
+        <h3>game rules</h3>
+        <ul>
+            <li>press ↑ ↓ ← → to move your character(player).</li>
+            <li>the minimal score is 0.</li>
+            <li>once you arrive the river, score +100 and generate an additional bug.</li>
+            <li>once the player conflict with bug, score -100 but the amount of bug will not reduce.</li>
+        </ul>
+    </div>
+    <script src="js/resources.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/engine.js"></script>
+</body>
+
+</html>
